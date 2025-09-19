@@ -18,10 +18,10 @@ try:
     
     # 进行单位转换
     if unit == 'kg':
-        converted = value * 22.046
+        converted = value * 2.2046
         print(f"对应的英制重量为{converted:.3f}磅")
     else:  # unit == 'pd'
-        converted = value / 22.046
+        converted = value *0.4535
         print(f"对应的公制重量为{converted:.3f}公斤")
         
 except ValueError as e:
